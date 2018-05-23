@@ -7,39 +7,6 @@ import slacker from '../assets/slackerPic.png'
 import skeu from '../assets/skeucard.gif'
 import git from '../assets/githublogo.svg'
 
-
-var clock = document.getElementById('clock');
-
-function bigClock() {
-	var time = new Date();
- 	var hours = time.getHours().toString();
- 	var minutes = time.getMinutes().toString();
- 	var seconds = time.getSeconds().toString();
-
- 	if (hours > 12) {
- 		hours = hours % 12;
- 	}
-
- 	if (hours.length < 2) {
- 		hours = '0' + hours
-	}
-
- 	if (minutes.length < 2) {
- 		minutes = '0' + minutes
- 	}
-
- 	if (seconds.length < 2) {
-		seconds = '0' + seconds
-	}
-
-	var color = "#"+hours+minutes+seconds
-	document.body.style.background = color;
-	document.getElementsByClassName("hex").innerHTML = color;
-}
-
-bigClock();
-setInterval(bigClock, 1000);
-
 class Info extends Component {
   render() {
     return (
@@ -82,8 +49,7 @@ class Info extends Component {
       <div className="projContainer3">
         <h1>JavaScript Hex Clock</h1>
         <img src={jsclock} className="jsClockContainer" />
-        <a className="hex"></a>
-        <p>This is a JavaScript clock that uses the current time that correlates to hex colors and is being used right now to change the background color every second!</p>
+        <p>This is a JavaScript clock that uses the current time that correlates to hex colors and changes background color every second!</p>
         <a href="https://github.com/thekevinm/Javascript-Clock" target="_blank"><img src={git} className="gitHubContainer" /></a>
       </div>
     
