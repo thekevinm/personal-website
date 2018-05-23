@@ -83,7 +83,7 @@ class Info extends Component {
         <h1>JavaScript Hex Clock</h1>
         <img src={jsclock} className="jsClockContainer" />
         <a className="hex"></a>
-        <p>This is a JavaScript clock that uses the current time to correlate to hex colors and is being used right now to change the background color every second!</p>
+        <p>This is a JavaScript clock that uses the current time that correlates to hex colors and is being used right now to change the background color every second!</p>
         <a href="https://github.com/thekevinm/Javascript-Clock" target="_blank"><img src={git} className="gitHubContainer" /></a>
       </div>
     
