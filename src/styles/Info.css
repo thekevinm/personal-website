@@ -1,3 +1,7 @@
+.hex {
+	font-family: 'Rajdhani', sans-serif;
+}
+
 .projectContainer {
     width: 50%;
     margin: auto;
@@ -37,6 +41,7 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 2%;
+    border: 1px solid white;
 }
 
 .projContainer p {
@@ -53,8 +58,50 @@
     width: 50%;
 }
 
+.projContainer2 h1 {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.slackerContainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid white;
+}
+
+.projContainer2 p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 25px;
+}
+
 .projContainer3 {
     border: 2px solid white;
     border-top: 1px solid white;
     width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.projContainer3 h1 {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.jsClockContainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid white;
+}
+
+.projContainer3 p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 25px;
 }

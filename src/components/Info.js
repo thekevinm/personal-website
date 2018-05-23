@@ -2,6 +2,41 @@ import React, { Component } from 'react';
 import '../styles/Info.css'
 import iosApp from '../assets/ezgif.com-video-to-gif.gif'
 import webApp from '../assets/webApp.gif'
+import jsclock from '../assets/gifClock.gif'
+import slacker from '../assets/slackerPic.png'
+
+
+var clock = document.getElementById('clock');
+
+function bigClock() {
+	var time = new Date();
+ 	var hours = time.getHours().toString();
+ 	var minutes = time.getMinutes().toString();
+ 	var seconds = time.getSeconds().toString();
+
+ 	if (hours > 12) {
+ 		hours = hours % 12;
+ 	}
+
+ 	if (hours.length < 2) {
+ 		hours = '0' + hours
+	}
+
+ 	if (minutes.length < 2) {
+ 		minutes = '0' + minutes
+ 	}
+
+ 	if (seconds.length < 2) {
+		seconds = '0' + seconds
+	}
+
+	var color = "#"+hours+minutes+seconds
+	document.body.style.background = color;
+	document.getElementsByClassName("hex").innerHTML = color;
+}
+
+bigClock();
+setInterval(bigClock, 1000);
 
 class Info extends Component {
   render() {
@@ -27,24 +62,27 @@ class Info extends Component {
       </div>
 
       <div className="projContainer2">
-        <h1>Street Eats iOS</h1>
-        {/* <img src={iosApp} className="iosAppContainer" /> */}
+        <h1>Slack Clone</h1>
+        <img src={slacker} className="slackerContainer" />
+        <p>Slacker is a Slack clone for instant messaging between users and has to the ability to create custom chat rooms. This app was made possible by using Socket.io for fast instant messaging.</p>
       </div>
 
       <div className="projContainer2">
-        <h1>Street Eats iOS</h1>
+        <h1>Credit Card Validator</h1>
         {/* <img src={iosApp} className="iosAppContainer" /> */}
       </div>
 
       <div className="projContainer3">
-        <h1>Street Eats iOS</h1>
-        {/* <img src={iosApp} className="iosAppContainer" /> */}
+        <h1>JavaScript Hex Clock</h1>
+        <img src={jsclock} className="jsClockContainer" />
+        <a className="hex"></a>
+        <p>This is a JavaScript clock that uses the current time to correlate to hex colors and is being used right now to change the background color every second!</p>
       </div>
 
-      <div className="projContainer3">
-        <h1>Street Eats iOS</h1>
-        {/* <img src={iosApp} className="iosAppContainer" /> */}
-      </div>
+      {/* // <div className="projContainer3">
+      //   <h1>Todo List</h1>
+      //   {/* <img src={iosApp} className="iosAppContainer" /> */}
+      {/* // </div> */}
     
     </div>
 
