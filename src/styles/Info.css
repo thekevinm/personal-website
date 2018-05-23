@@ -1,0 +1,39 @@
+.projectContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.projectContainer h1 {
+    font-size: 50px;
+}
+
+.bigProjContainer {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.projContainer {
+    border: 2px solid white;
+    width: 50%;
+}
+
+.projContainer h1 {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.iosAppContainer {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    border: 1px solid white;
+}
+
+.webAppContainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
