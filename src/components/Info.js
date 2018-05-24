@@ -26,10 +26,12 @@ class Info extends Component {
       </div>
 
       <div className="projContainer">
-        <h1>Street Eats iOS</h1>
-        <img src={iosApp} className="iosAppContainer" />
-        <p>Street Eats iOS is the mobile app version that utilizes React Native to create a fun user experience. Trucks can quickly update their locations from their phones and users can instantaneously see where they are.</p>
-        <a href="https://github.com/classZero/street-eats-app" target="_blank"><img src={git} className="gitHubContainer" /></a>
+        <div className="borderLeft">
+          <h1>Street Eats iOS</h1>
+          <img src={iosApp} className="iosAppContainer" />
+          <p>Street Eats iOS is the mobile app version that utilizes React Native to create a fun user experience. Trucks can quickly update their locations from their phones and users can instantaneously see where they are.</p>
+          <a href="https://github.com/classZero/street-eats-app" target="_blank"><img src={git} className="gitHubContainer" /></a>
+        </div>
       </div>
 
       <div className="projContainer2">
@@ -40,10 +42,12 @@ class Info extends Component {
       </div>
 
       <div className="projContainer2">
-        <h1>Credit Card Validator</h1>
-        <img src={skeu} className="skeuContainer" />
-        <p>As users enter credit card info, using Regex, it can check for valid information and update the image in the top right to be the correct credit card company.</p>
-        <a href="https://github.com/thekevinm/react-card-validator" target="_blank"><img src={git} className="gitHubContainer" /></a>
+        <div className="borderLeft">
+          <h1>Credit Card Validator</h1>
+          <img src={skeu} className="skeuContainer" />
+          <p>As users enter credit card info, using Regex, it can check for valid information and update the image in the top right to be the correct credit card company.</p>
+          <a href="https://github.com/thekevinm/react-card-validator" target="_blank"><img src={git} className="gitHubContainer" /></a>
+        </div>
       </div>
 
       <div className="projContainer3">
