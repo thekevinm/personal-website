@@ -3,8 +3,7 @@ import '../styles/About.css'
 import headshot from '../assets/headshot.jpg'
 import github from '../assets/githublogo.svg'
 import linkedin from '../assets/linkedin.png'
-import phone from '../assets/phone.png'
-// import email from '../assets/email.svg'
+
 
 class About extends Component {
   render() {
@@ -19,14 +18,14 @@ class About extends Component {
             <p>from start to finish.</p>
         </div>
 
-        <img className="headshot" src={headshot} />
+        <img className="headshot" src={headshot} alt="" />
 
         <div className="socials">
-            <a href="https://github.com/thekevinm" target="_blank" className="socialIcon">
-              <img src={github} className="socialIcon"/>
+            <a href="https://github.com/thekevinm" target="_blank" className="socialIcon" rel="noopener noreferrer">
+              <img src={github} className="socialIcon" alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/kevin-mcgahey-185528162/" target="_blank" className="socialIcon">
-              <img src={linkedin} className="socialIcon" />
+            <a href="https://www.linkedin.com/in/kevin-mcgahey-185528162/" target="_blank" className="socialIcon" rel="noopener noreferrer">
+              <img src={linkedin} className="socialIcon" alt="" />
             </a>
         </div>
         
