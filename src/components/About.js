@@ -12,7 +12,7 @@ class About extends Component {
 
         <div className="myStory">
             <p>Hello! My name is Kevin and I am a Front End Developer who</p> 
-            <p>primarly uses JavaScript, but picking up a new framework or</p>
+            <p>primarily uses JavaScript, but picking up a new framework or</p>
             <p>language isn't a problem. I graduated from PunchCode and</p>
             <p>know how to quickly get web applications up and running</p>
             <p>from start to finish.</p>
