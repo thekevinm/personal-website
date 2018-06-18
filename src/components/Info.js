@@ -21,7 +21,7 @@ class Info extends Component {
       <div className="projContainer">
         <h1>Street Eats</h1>
         <img src={webApp} className="webAppContainer" alt=""/>
-        <p>Street Eats is a single page web app utilizing React and Redux for state management. It is meant for food truck owners to quickly update their location by using geolocation and drop a pin on our map for users to follow their favorite trucks. Users can also order their favorite food by using Stripe for payments and Socket.io for instant order notifications to the food trucks.</p> 
+        <p>Street Eats is a single page web app utilizing React and Redux for state management. It is meant for food truck owners to quickly update their location by using geolocation and drop a pin on our map for users to follow their favorite trucks. Users can also order their favorite food by using Stripe for payments and Socket.io for instant order notifications to the food trucks. Click <a href="https://www.streeteats.us/" target="_blank" rel="noopener noreferrer">here</a> to view it live!</p> 
         <a href="https://github.com/classZero/street-eats" target="_blank" rel="noopener noreferrer"><img src={git} className="gitHubContainer" alt="" /></a>
       </div>
 
