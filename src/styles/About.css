@@ -2,7 +2,7 @@
 
 .aboutContainer {
     margin: auto;
-    font-size: 1.5vw;
+    font-size: 20px;
     width: 50%;
     text-align: center;
 }
@@ -34,4 +34,17 @@ h2 {
 
 .myStory {
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .headshot {
+        border: 1px solid black;
+    }
+    .aboutContainer {
+        width: 95%;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 25px;
+    }
 }

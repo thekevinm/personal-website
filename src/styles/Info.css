@@ -7,7 +7,7 @@
 }
 
 .projectContainer h1 {
-    font-size: 3vw;
+    font-size: 40px;
     border-bottom: 1px solid black;
     width: 35%;
     margin: auto;
@@ -51,7 +51,7 @@
     margin-right: 5%;
     margin-top: 4%;
     margin-bottom: 4%;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .projContainer2 {
@@ -85,7 +85,7 @@
     margin-right: 5%;
     margin-top: 4%;
     margin-bottom: 4%;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .projContainer3 {
@@ -114,7 +114,7 @@
     margin-right: 5%;
     margin-top: 4%;
     margin-bottom: 4%;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .gitHubContainer {
@@ -126,4 +126,25 @@
 
 .borderLeft {
     border-left: 1px solid black;
+}
+
+@media (max-width: 1000px) {
+    .bigProjContainer {
+        width: 90%;
+    }
+    .projectContainer {
+        width: 90%;
+    }
+    .projectContainer h1 {
+        font-size: 30px;
+    }
+    .projContainer p {
+        font-size: 15px;
+    }
+    .projContainer2 p {
+        font-size: 15px;
+    }
+    .projContainer3 p {
+        font-size: 15px;
+    }
 }
