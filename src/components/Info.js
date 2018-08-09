@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import '../styles/Info.css'
 import iosApp from '../assets/ezgif.com-video-to-gif.gif'
 import webApp from '../assets/webApp.gif'
 import jsclock from '../assets/gifClock.gif'
 import slacker from '../assets/slackerPic.png'
 import skeu from '../assets/skeucard.gif'
+import blog from '../assets/laravel-gif.gif'
+import tictac from '../assets/tictactoe-gif.gif'
 import git from '../assets/githublogo.svg'
 
 class Info extends Component {
@@ -31,6 +33,22 @@ class Info extends Component {
           <img src={iosApp} className="iosAppContainer" alt=""/>
           <p>Street Eats iOS is the mobile app version that utilizes React Native to create a fun user experience. Trucks can quickly update their locations from their phones and users can instantaneously see where they are.</p>
           <a href="https://github.com/classZero/street-eats-app" target="_blank" rel="noopener noreferrer"><img src={git} className="gitHubContainer" alt="" /></a>
+        </div>
+      </div>
+
+      <div className="projContainer2">
+        <h1>Blog Website</h1>
+        <img src={blog} className="slackerContainer" alt=""/>
+        <p>A blog website made with PHP and Laravel to allow users to create custom posts with text and images. Users are able to edit and delete posts as well for the best experience.</p>
+        <a href="https://github.com/thekevinm/laravel-blog" target="_blank" rel="noopener noreferrer"><img src={git} className="gitHubContainer" alt=""/></a>
+      </div>
+
+      <div className="projContainer2">
+        <div className="borderLeft">
+          <h1>Tic Tac Toe</h1>
+          <img src={tictac} className="iosAppContainer" alt=""/>
+          <p>An iOS mobile game utilizing React Native for two players to play a fun game of Tic Tac Toe created with some JavaScript for functionality.</p>
+          <a href="https://github.com/thekevinm/TicTacToe" target="_blank" rel="noopener noreferrer"><img src={git} className="gitHubContainer" alt=""/></a>
         </div>
       </div>
 
