@@ -32,7 +32,7 @@ class About extends Component {
         <div className="connectContainer">
             <h2>CONNECT</h2>
             <p>kevinmcgahey1114@gmail.com</p>
-            <p>702-769-7449</p>
+            <p>702-769-7449</p> 
         </div>
         
       </div>
